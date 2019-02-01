@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const TodoList = () => {
+
 	const items = ['Learn React', 'Build Awesome App'];
 
 	return (
