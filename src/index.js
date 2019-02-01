@@ -24,10 +24,11 @@ const App = () => {
 
 	const isLoggedIn = true;
 	const loginBox = <span>Log in please</span>;
+	const welcomeBox = <span>Welcome Back</span>;
 
 	return (
 		<div>
-			{ loginBox }
+			{ isLoggedIn ? welcomeBox : loginBox }
 			<AppHeader />
 			<SearchPanel />
 			<TodoList />
